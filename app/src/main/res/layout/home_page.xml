@@ -18,7 +18,7 @@
           <Button
               android:id="@+id/BtnSnackBar"
               android:layout_width="match_parent"
-              android:layout_height="100dp"
+              android:layout_height="80dp"
               android:layout_marginLeft="20dp"
               android:layout_marginTop="20dp"
               android:layout_marginRight="20dp"
@@ -30,7 +30,7 @@
         <Button
             android:id="@+id/BtnListView"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="80dp"
             android:text="ListView"
             android:textSize="20sp"
             android:layout_marginTop="20dp"
@@ -42,7 +42,7 @@
         <Button
             android:id="@+id/BtnSpinnerDemo"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="80dp"
             android:text="Spinner-Demo"
             android:textSize="20sp"
             android:layout_marginTop="20dp"
@@ -54,7 +54,7 @@
           <Button
               android:id="@+id/BtnNavigation"
               android:layout_width="match_parent"
-              android:layout_height="100dp"
+              android:layout_height="80dp"
               android:text="Navigation_Topic"
               android:textSize="20sp"
               android:layout_marginTop="20dp"
@@ -66,7 +66,7 @@
           <Button
               android:id="@+id/BtnNavi_Drawer"
               android:layout_width="match_parent"
-              android:layout_height="100dp"
+              android:layout_height="80dp"
               android:text="Navigation_Drawer"
               android:textSize="20sp"
               android:layout_marginTop="20dp"
@@ -78,7 +78,7 @@
           <Button
               android:id="@+id/BtnSQLite_InsertData"
               android:layout_width="match_parent"
-              android:layout_height="100dp"
+              android:layout_height="80dp"
               android:text="SQLite_InsertData"
               android:textSize="20sp"
               android:layout_marginTop="20dp"
@@ -91,7 +91,7 @@
           <Button
               android:id="@+id/BtnFirebaseToken"
               android:layout_width="match_parent"
-              android:layout_height="100dp"
+              android:layout_height="80dp"
               android:text="FirebaseToken"
               android:textSize="20sp"
               android:layout_marginTop="20dp"
@@ -100,6 +100,19 @@
               android:textColor="@color/white"
               android:background="@drawable/style_design"
               android:backgroundTint="#004D40"/>
+
+          <Button
+              android:id="@+id/BtnSharedPref"
+              android:layout_width="match_parent"
+              android:layout_height="80dp"
+              android:text="SharedPreference"
+              android:textSize="20sp"
+              android:layout_marginTop="20dp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:textColor="@color/white"
+              android:background="@drawable/style_design"
+              android:backgroundTint="#674747"/>
       </LinearLayout>
   </RelativeLayout>
 </ScrollView>

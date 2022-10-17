@@ -1,5 +1,6 @@
 package com.example.practice_2;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -12,8 +13,10 @@ import com.example.practice_2.Spinner_Demo.Spinner_Demo;
 
 public class Home_Page extends AppCompatActivity implements View.OnClickListener {
     Button SnackBar , ListView , SpinnerDemo , Navigation, Navi_Drawer, SQLite_Insert, FirebaseToken;
+    Button SharedPref;
     Toolbar toolbar;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,6 +43,9 @@ public class Home_Page extends AppCompatActivity implements View.OnClickListener
         FirebaseToken = findViewById(R.id.BtnFirebaseToken);
         FirebaseToken.setOnClickListener(this);
 
+        SharedPref = findViewById(R.id.BtnSharedPref);
+        SharedPref.setOnClickListener(this);
+
     }
 
     @Override
@@ -65,6 +71,9 @@ public class Home_Page extends AppCompatActivity implements View.OnClickListener
                 break;
             case R.id.BtnFirebaseToken:
                 startActivity(new Intent(Home_Page.this, com.example.practice_2.Firebase.Firebase_Main.class));
+                break;
+            case R.id.BtnSharedPref:
+                startActivity(new Intent(Home_Page.this, com.example.practice_2.SharedPreference.SP_login.class));
                 break;
         }
     }

@@ -11,6 +11,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Practice_2">
         <activity
+            android:name=".SharedPreference.SP_SignUp"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".SharedPreference.SP_login"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Firebase.Firebase_Main"
             android:exported="false" />
         <activity
