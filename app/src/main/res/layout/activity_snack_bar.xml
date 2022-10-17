@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/LinearLayout1"
+    tools:context=".SnackBar.SnackBar">
+
+    <LinearLayout
+        android:orientation = "vertical"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content">
+
+        <!-- button with single line snackbar -->
+        <Button
+            android:id = "@+id/snackBar1"
+            android:textAllCaps = "true"
+            android:textStyle = "bold"
+            android:textSize = "16dp"
+            android:background = "@drawable/style_design"
+            android:backgroundTint="#FF6F00"
+            android:textColor = "#ffffff"
+            android:text = "Simple Single Line Snackbar "
+            android:layout_margin = "16dp"
+            android:layout_width = "match_parent"
+            android:layout_height = "80dp"/>
+
+        <!-- button with multi line snackbar -->
+        <Button
+            android:id = "@+id/snackBar2"
+            android:textAllCaps = "true"
+            android:textStyle = "bold"
+            android:textSize = "16dp"
+            android:background = "@drawable/style_design"
+            android:backgroundTint="#1B5E20"
+            android:textColor = "#ffffff"
+            android:text = "Simple Multiple Line Snackbar "
+            android:layout_margin = "16dp"
+            android:layout_width = "match_parent"
+            android:layout_height = "80dp"/>
+
+        <!-- button with single line snackbar with action button -->
+        <Button
+            android:id = "@+id/snackBar3"
+            android:textAllCaps = "true"
+            android:textStyle = "bold"
+            android:textSize = "16dp"
+            android:background = "@drawable/style_design"
+            android:backgroundTint="#42A5F5"
+            android:textColor = "#ffffff"
+            android:text = "Single line Snackbar With Action Button "
+            android:layout_margin = "16dp"
+            android:layout_width = "match_parent"
+            android:layout_height = "80dp"/>
+
+        <!-- button with multiline snackbar with action button -->
+        <Button
+            android:id = "@+id/snackBar4"
+            android:textAllCaps = "true"
+            android:textStyle = "bold"
+            android:textSize = "16dp"
+            android:background = "@drawable/style_design"
+            android:backgroundTint="#CF1D1D"
+            android:textColor = "#ffffff"
+            android:text = "MultiLine line Snackbar With Action Button "
+            android:layout_margin = "16dp"
+            android:layout_width = "match_parent"
+            android:layout_height = "80dp"/>
+
+        <!-- button with custom snackbar with action button -->
+        <Button
+            android:id = "@+id/snackBar5"
+            android:textAllCaps = "true"
+            android:textStyle = "bold"
+            android:textSize = "16dp"
+            android:background = "@drawable/style_design"
+            android:backgroundTint="#AB47BC"
+            android:textColor = "#ffffff"
+            android:text = "Custom Snackbar With Action Button"
+            android:layout_margin = "16dp"
+            android:layout_width = "match_parent"
+            android:layout_height = "80dp"/>
+
+    </LinearLayout>
+</LinearLayout>

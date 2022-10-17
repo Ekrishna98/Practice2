@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Practice_2</string>
+
+    <string-array name="items_class">
+        <item>Class 1</item>
+        <item>Class 2</item>
+        <item>Class 3</item>
+        <item>Class 4</item>
+    </string-array>
+
+    <string-array name="items_div_class_1">
+        <item>Div 1-A</item>
+        <item>Div 1-B</item>
+        <item>Div 1-C</item>
+        <item>Div 1-D</item>
+    </string-array>
+
+    <string-array name="items_div_class_2">
+        <item>Div 2-A</item>
+        <item>Div 2-B</item>
+        <item>Div 2-C</item>
+        <item>Div 2-D</item>
+    </string-array>
+
+    <string-array name="items_div_class_3">
+        <item>Div 3-A</item>
+        <item>Div 3-B</item>
+        <item>Div 3-C</item>
+        <item>Div 3-D</item>
+    </string-array>
+
+    <string-array name="items_div_class_4">
+        <item>Div 4-A</item>
+        <item>Div 4-B</item>
+        <item>Div 4-C</item>
+        <item>Div 4-D</item>
+    </string-array>
+    <string name="title_activity_navigation_topic">Navigation_Topic</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_navigation_drawer">Navigation_Drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+</resources>
